@@ -1,0 +1,116 @@
+```json
+{
+  "1": {
+    "title": "Python Misolida Regressiya Testlari",
+    "content": {
+      "pointer1": "Bugungi taqdimotimiz dasturiy ta'minot sifatini ta'minlashning muhim qismi – regressiya testlariga bag'ishlanadi. Biz ushbu testlarning nima ekanligini, qanday ahamiyatga ega ekanligini ko'rib chiqamiz. Shuningdek, ularni Python dasturlash tilida qanday amalga oshirish mumkinligini amaliy misollar bilan o'rganamiz.",
+      "pointer2": "Dasturiy ta'minot sifatini ta'minlash.",
+      "pointer3": "Python orqali testlarni avtomatlashtirish."
+    }
+  },
+  "2": {
+    "title": "Regressiya Testlari Nima?",
+    "content": {
+      "pointer1": "Regressiya testlari dasturiy ta'minotga kiritilgan yangi o'zgarishlar (kodni yangilash, xatolarini tuzatish) mavjud funksionalliklarga salbiy ta'sir ko'rsatmaganligini tekshirish jarayonidir. Bu testlar dasturning oldingi versiyalarida to'g'ri ishlagan qismlari yangi kod tufayli buzilmaganligini kafolatlaydi. Maqsadi – kiritilgan o'zgarishlar tufayli yuzaga keladigan yangi xatolarni aniqlash va oldini olishdir.",
+      "pointer2": "Mavjud funksiyalarning buzilmaganligini tekshirish.",
+      "pointer3": "Kiritilgan o'zgarishlardan so'ng sifatni saqlash."
+    }
+  },
+  "3": {
+    "title": "Regressiya Testlari Nima Uchun Muhim?",
+    "content": {
+      "pointer1": "Regressiya testlari dasturiy ta'minotning barqarorligi va ishonchliligini ta'minlashda hal qiluvchi rol o'ynaydi. Ular yangi funksiyalarni qo'shish yoki xatolarni tuzatish jarayonida kutilmagan yon ta'sirlarni aniqlashga yordam beradi. Natijada, ishlab chiqarishga chiqqan mahsulotning sifati yuqori bo'lishini ta'minlaydi va mijozlar ehtiyojini qondiradi.",
+      "pointer2": "Dasturiy ta'minot barqarorligini oshiradi.",
+      "pointer3": "Kutilmagan xatolarni erta aniqlashga yordam beradi."
+    }
+  },
+  "4": {
+    "title": "Qachon Regressiya Testlarini O'tkazish Kerak?",
+    "content": {
+      "pointer1": "Regressiya testlari doimiy ravishda, ayniqsa kod bazasiga sezilarli o'zgarishlar kiritilganda o'tkazilishi kerak. Yangi funksionalliklar qo'shilganda, mavjud funksiyalar o'zgartirilganda yoki xatolar tuzatilganda regressiya testlari muhimdir. Shuningdek, muhit o'zgarganda (masalan, operatsion tizim yangilanishi) ham ularni o'tkazish tavsiya etiladi.",
+      "pointer2": "Yangi funksiyalar qo'shilganda bajariladi.",
+      "pointer3": "Xato tuzatishlaridan so'ng qayta tekshirish zarur."
+    }
+  },
+  "5": {
+    "title": "Regressiya Testlarining Turlari",
+    "content": {
+      "pointer1": "Regressiya testlari bir nechta turlarga bo'linadi, ularning har biri o'ziga xos vaziyatlar uchun qo'llaniladi. To'liq regressiya testi barcha test holatlarini qamrab oladi. Qisman regressiya testi faqat ma'lum modullar yoki funksiyalarga e'tibor qaratadi. Tanlab olish orqali regressiya testi esa faqat o'zgartirilgan kodga bevosita bog'liq bo'lgan testlarni bajaradi.",
+      "pointer2": "To'liq, qisman va tanlab olish orqali testlar.",
+      "pointer3": "Har bir tur o'zgarish hajmiga qarab tanlanadi."
+    }
+  },
+  "6": {
+    "title": "Regressiya Testlash Jarayoni",
+    "content": {
+      "pointer1": "Regressiya testlash jarayoni bir necha bosqichdan iborat. Avval mavjud test holatlari qayta ko'rib chiqiladi va yangilanadi. Keyin, zarur bo'lsa, yangi test holatlari qo'shiladi. Bu test holatlari tanlanadi va bajariladi. Natijalar tahlil qilinadi, aniqlangan xatolar esa tuzatish uchun qayd etiladi. Jarayon to'liq avtomatlashtirilishi mumkin.",
+      "pointer2": "Test holatlarini tanlash va yangilash.",
+      "pointer3": "Testlarni bajarish, natijalarni tahlil qilish."
+    }
+  },
+  "7": {
+    "title": "Samarali Regressiya Testlarining Tamoyillari",
+    "content": {
+      "pointer1": "Samarali regressiya testlari avtomatlashtirilgan, qayta foydalanish mumkin bo'lishi va osongina saqlanishi kerak. Testlar mustaqil bo'lishi va bir-biriga bog'liq bo'lmasligi lozim. Ular aniq, tushunarli va tez bajariladigan bo'lishi muhimdir. Yaxshi testlar kodning har bir qismini mantiqiy qamrab oladi.",
+      "pointer2": "Avtomatlashtirilgan va qayta foydalaniladigan bo'lishi.",
+      "pointer3": "Mustaqil, aniq va tez bajariladigan testlar."
+    }
+  },
+  "8": {
+    "title": "Testlash Uchun Python - Kirish",
+    "content": {
+      "pointer1": "Python dasturlash tili o'zining soddaligi, keng kutubxonalari va ko'p qirraliligi tufayli testlashda juda mashhurdir. U unittest, pytest kabi standart test freymvorklariga ega. Shuningdek, Selenium, Playwright kabi kutubxonalar yordamida veb-ilovalarni avtomatlashtirishga imkon beradi. Python test kodini yozish va boshqarishni ancha soddalashtiradi.",
+      "pointer2": "Soddaligi va keng kutubxonalari bilan mashhur.",
+      "pointer3": "Test kodini yozishni osonlashtiradi."
+    }
+  },
+  "9": {
+    "title": "Regressiya Uchun Unit Testlar (Python)",
+    "content": {
+      "pointer1": "Unit testlar dasturiy ta'minotning eng kichik, mustaqil qismlarini (funksiyalar, metodlar) tekshiradi. Pytest yoki unittest freymvorklari Python'da unit testlarni yozish uchun keng qo'llaniladi. Ular regressiya testlarining asosini tashkil etadi, chunki ular kodga kiritilgan kichik o'zgarishlarning ta'sirini tezda aniqlashga yordam beradi. Har bir unit test aniq bitta funksionallikni tekshiradi.",
+      "pointer2": "Pytest va unittest keng qo'llaniladi.",
+      "pointer3": "Kodga kiritilgan kichik o'zgarishlarni tekshirish."
+    }
+  },
+  "10": {
+    "title": "Regressiya Uchun Integratsiya Testlari (Python)",
+    "content": {
+      "pointer1": "Integratsiya testlari dasturiy ta'minotning turli modullari yoki tizimlari bir-biri bilan qanday ishlashini tekshiradi. Masalan, bir API boshqa xizmat bilan to'g'ri aloqa o'rnatayotganini yoki ma'lumotlar bazasi bilan o'zaro ishlashini tekshirish mumkin. Requests kutubxonasi Python'da RESTful API integratsiya testlarini yozish uchun juda qulaydir. Ular komponentlararo regressiya xatolarini aniqlaydi.",
+      "pointer2": "Modullarning o'zaro ishlashini tekshiradi.",
+      "pointer3": "Requests kutubxonasi API testlari uchun qulay."
+    }
+  },
+  "11": {
+    "title": "Regressiya Uchun Funktsional/Tizim Testlari (Python)",
+    "content": {
+      "pointer1": "Funktsional yoki tizim testlari butun ilovaning talablariga muvofiqligini, foydalanuvchi nuqtai nazaridan to'g'ri ishlashini tekshiradi. Veb-ilovalarda foydalanuvchi interfeysi (UI) testlari Selenium yoki Playwright kabi Python kutubxonalari yordamida avtomatlashtiriladi. Ular regressiya testlari uchun muhimdir, chunki ular butun tizim darajasidagi xatolarni aniqlaydi.",
+      "pointer2": "Butun ilovaning talablarga mosligini tekshiradi.",
+      "pointer3": "Selenium/Playwright UI testlari uchun samarali."
+    }
+  },
+  "12": {
+    "title": "Python'da Regressiya Testlarini Avtomatlashtirish",
+    "content": {
+      "pointer1": "Python yordamida regressiya testlarini avtomatlashtirish doimiy integratsiya/doimiy yetkazib berish (CI/CD) quvurlarining ajralmas qismidir. Jenkins, GitHub Actions yoki GitLab CI kabi vositalar kod o'zgartirilganda testlarni avtomatik ishga tushirishga imkon beradi. Bu testlarni doimiy ravishda bajarish va xatolarni tezda aniqlash imkonini beradi.",
+      "pointer2": "CI/CD jarayonlarida muhim rol o'ynaydi.",
+      "pointer3": "Jenkins, GitHub Actions bilan integratsiya."
+    }
+  },
+  "13": {
+    "title": "Python Bilan Regressiya Testlari Uchun Eng Yaxshi Amaliyotlar",
+    "content": {
+      "pointer1": "Testlarni avtomatlashtirishga ustuvor ahamiyat bering. Test holatlaringizni doimiy ravishda yangilang va ularni tegishli ma'lumotlar bilan boyiting. Tez-tez va kichik o'zgarishlarni tekshirib turing, bu xatolarni erta aniqlashga yordam beradi. Testlar bazasini toza va boshqariladigan holatda saqlash muhim. Test qamrovini kuzating.",
+      "pointer2": "Avtomatlashtirishga ustuvorlik berish.",
+      "pointer3": "Test holatlarini yangilash, tez-tez test o'tkazish."
+    }
+  },
+  "14": {
+    "title": "Xulosa va Savol-Javoblar",
+    "content": {
+      "pointer1": "Regressiya testlari dasturiy ta'minotni ishlab chiqish siklining ajralmas qismidir. Ular dasturning barqarorligini va sifatini saqlashda muhim ahamiyatga ega. Python o'zining kuchli freymvorklari va kutubxonalari tufayli regressiya testlarini avtomatlashtirish uchun ajoyib vositadir. Umid qilamizki, ushbu taqdimot sizga regressiya testlari haqida asosiy tushunchalarni berdi.",
+      "pointer2": "Sifatni ta'minlashda muhim vosita.",
+      "pointer3": "Python regressiya testlarini avtomatlashtirish uchun kuchli."
+    }
+  }
+}
+```
